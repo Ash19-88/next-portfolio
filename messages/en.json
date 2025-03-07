@@ -1,0 +1,61 @@
+{
+    "About": {
+        "about": "About",
+        "hi": "Hi! I'm Ash, a creative and results-driven full-stack developer.",
+        "techs": "I've worked with a variety of technologies in web development,including languages such as JavaScript, Typescript and SQL.",
+        "ux": "For user experience, I've been developing with React,Next JS, Redux, Hooks, React-Router, Bootstrap, TailwindCSS, CSS and more. On the Back-End, I've been working with Node.js and Express, and in terms of databases, I've been storing and organizing data with Sequelize, PostgreSQL, SQLite, Firebase, among others. Also, I have experience with tools like GitHub, Postman, Trello, Jira, Slack, Visual Studio, Vercel, Canva and Figma. At the moment, I am learning React Native and strengthening my frontend development skills.",
+        "background": "My background as an English teacher helped me to develop useful soft skills, such as leadership, teamwork and proactive problem-solving. Also, I'm well-organized in managing projects and timelines. Above all, I'm passionate about technology, thrive in collaborative environments and open to new challenges."
+      },
+      "NavBar":{
+        "title": "AshTech Solutions",
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "experience": "Experience",
+        "contact": "Contact",
+        "changeLanguage": "Change Language",
+        "english": "English",
+        "spanish": "Spanish",
+        "portuguese": "Portuguese"
+      },
+      "Main":{
+        "home": "Home",
+        "homeTitle": "Building beautiful web experiences",
+        "homeSubtitle": "I invite you to know more about me and what I do",
+        "projects": "Projects"
+      },
+      "Projects":{
+        "projects": "Projects",
+        "projectsSubtitle": "Check out some of my work here",
+        "demo": "Demo",
+        "code": "Code",
+        "cheers": {
+          "title": "Cheers - SaaS Solution",
+          "description": "Full-stack development of a SaaS platform for beverage orders. Integrated Stripe payments, real-time database with Firebase, and QR code generation. Implemented multilingual support and admin dashboard."
+        },
+        "nearbytour": {
+          "title": "NearByTour - Travel Platform",
+      "description": "Led frontend development using Next.js and TypeScript. Created interactive maps and experience cards with Tailwind CSS. Implemented geolocation features and optimized image loading."
+        },
+        "aracellipmu": {
+          "title": "Aracelli PMU - E-commerce",
+      "description": "Freelance Next.js e-commerce solution. Developed high-conversion UI/UX flow with external platform integration. Boosted client sales by 40% through SEO optimizations and performance tuning."
+        },
+        "thinderpet": {
+           "title": "ThinderPet - Pet Matching",
+      "description": "Created pet profile system with advanced search filters. Implemented swipe functionality and pet profile management."
+        },
+        "tunematch":{
+          "title": "TuneMatch - Music Social",
+      "description": "Built real-time chat and concert tracking features. Integrated Last.fm API for music recommendations. Developed responsive UI with React and Tailwind CSS."
+        },
+        "videogames": {
+          "title": "Video Games API - Gaming Platform",
+          "description": "Developed a RESTful API for video game data management. Implemented CRUD operations, and search filters. Built with Node.js, Express, and PostgreSQL."
+        },
+        "starwars": {
+          "title": "Star Wars Wiki - Fan Platform",
+          "description": "Created a fan platform for Star Wars enthusiasts. Integrated SWAPI (Star Wars API) to fetch character and movie data. Designed responsive UI with React and CSS modules."
+        }
+      }
+}

@@ -1,0 +1,53 @@
+{
+    "About": {
+        "about": "Sobre mí",
+        "hi": "¡Hola! Soy Ash, desarrolladora full-stack creativa y orientada a resultados.",
+        "techs": "He trabajado con una variedad de tecnologías en el desarrollo web, incluyendo lenguajes como JavaScript, Typescript y SQL.",
+        "ux": "Para la experiencia de usuario, he estado desarrollando con React, Next JS, Redux, Hooks, React-Router, Bootstrap, TailwindCSS, CSS y más. En el Back-End, he estado trabajando con Node.js y Express; y en términos de bases de datos, he estado almacenando y organizando datos con Sequelize, PostgreSQL, SQLite, Firebase, entre otros. Además, tengo experiencia con herramientas como GitHub, Postman, Trello, Jira, Slack, Visual Studio, Vercel, Canva y Figma. En este momento, estoy aprendiendo React Native y fortaleciendo mis habilidades de desarrollo frontend.",
+        "background": "Mi formación como profesora de inglés me ayudó a desarrollar habilidades blandas útiles, como liderazgo, trabajo en equipo y resolución proactiva de problemas. Además, soy muy organizada en la gestión de proyectos y cronogramas. Por encima de todo, soy una apasionada por la tecnología, prospero en entornos colaborativos y estoy abierta a nuevos desafíos."
+      },
+      "NavBar":{
+        "title": "AshTech Solutions",
+        "home": "Inicio",
+        "about": "Sobre mí",
+        "projects": "Proyectos",
+        "experience": "Experiencia",
+        "contact": "Contacto",
+        "changeLanguage": "Cambiar idioma",
+        "english": "Inglés",
+        "spanish": "Español",
+        "portuguese": "Portugués"
+      },
+      "Main": {
+        "home": "Inicio",
+        "homeTitle": "Construyendo experiencias web hermosas",
+        "homeSubtitle": "Te invito a conocer más sobre mí y lo que hago",
+        "projects": "Proyectos"
+      },
+      "Projects":{
+        "projects": "Proyectos",
+        "projectsSubtitle": "Echa un vistazo a algunos de mis trabajos aquí",
+        "demo": "Demo",
+        "code": "Código",
+        "Cheers": {
+          "title": "",
+          "description": ""
+        },
+        "Nearbytour": {
+          "title": "",
+          "description": ""
+        },
+        "aracellipmu": {
+          "title": "Aracelli PMU",
+          "description": "Freelance e-commerce built with Next.js. Implemented high-conversion flow redirecting to external platform, boosting sales by 40% through SEO and performance optimizations."
+        },
+        "thinderpet": {
+          "title": "",
+          "description": ""
+        },
+        "tunematch":{
+          "title": "",
+          "description": ""
+        }
+      }
+}
