@@ -87,21 +87,21 @@ const NavBar = () => {
 
           {isOpen && (
             <div className="origin-top-right absolute right-0 mt-2 w-44 rounded-md shadow-lg bg-black text-slate-300 ring-1 ring-black ring-opacity-5">
-              <div className="py-1" role="menu">
+              <div className="" role="menu">
                 <button
-                  className="block px-4 py-2 text-sm hover:bg-fuchsia-800 hover:text-slate-100 w-full text-left"
+                  className="block px-4 py-2 text-sm hover:bg-zinc-900 hover:text-slate-100 w-full text-left"
                   onClick={() => changeLanguage("en")}
                 >
                   {t("english")}
                 </button>
                 <button
-                  className="block px-4 py-2 text-sm hover:bg-fuchsia-800 hover:text-slate-100 w-full text-left"
+                  className="block px-4 py-2 text-sm hover:bg-zinc-900 hover:text-slate-100 w-full text-left"
                   onClick={() => changeLanguage("es")}
                 >
                   {t("spanish")}
                 </button>
                 <button
-                  className="block px-4 py-2 text-sm hover:bg-fuchsia-800 hover:text-slate-100 w-full text-left"
+                  className="block px-4 py-2 text-sm hover:bg-zinc-900 hover:text-slate-100 w-full text-left"
                   onClick={() => changeLanguage("pt")}
                 >
                   {t("portuguese")}
