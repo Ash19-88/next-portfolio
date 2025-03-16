@@ -65,5 +65,12 @@
       "Footer": {
         "developedBy": "Desarrollado por",
         "copyright": "derechos de autor"
+      },
+      "SocialLinks":{
+        "whatsappLink": "WhatsApp",
+        "linkedinLink": "LinkedIn",
+        "githubLink": "GitHub",
+        "mailLink": "Correo",
+        "resumeLink": "Currículum"
       }
 }
