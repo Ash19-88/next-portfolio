@@ -61,5 +61,9 @@
       "Experience": {
          "experience": "Experiencia",
          "experienceSubtitle": "Estas son tecnologías, algunos frameworks y herramientas con las que he trabajado"
+      },
+      "Footer": {
+        "developedBy": "Desarrollado por",
+        "copyright": "derechos de autor"
       }
 }
