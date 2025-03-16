@@ -67,7 +67,7 @@ const NavBar = () => {
         <div ref={menuRef} className="relative inline-block text-left md:text-xs lg:text-base">
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="inline-flex justify-center w-full bg-transparent font-medium border border-slate-300 rounded-md px-2 py-2 text-slate-300 hover:bg-slate-950 focus:outline-none focus:ring-1 focus:ring-offset-1 focus:ring-offset-gray-100"
+            className="inline-flex justify-center w-full bg-transparent font-medium border border-slate-300 rounded-md px-2 py-2 text-slate-300 hover:bg-zinc-900 focus:outline-none focus:ring-1 focus:ring-offset-1 focus:ring-offset-gray-100"
           >
             {t("changeLanguage")}
             <svg
