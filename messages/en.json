@@ -47,7 +47,7 @@
         },
         "tunematch":{
           "title": "TuneMatch - Music Social",
-      "description": "Built real-time chat and concert tracking features. Integrated Last.fm API for music recommendations. Developed responsive UI with React and Tailwind CSS."
+           "description": "Led the frontend development using React and Tailwind CSS, creating a responsive and optimized user interface. Developed the real-time private messaging system and integrated interactive features to connect users with similar musical interests."
         },
         "videogames": {
           "title": "Video Games API - Gaming Platform",
@@ -57,5 +57,9 @@
           "title": "Star Wars Wiki - Fan Platform",
           "description": "Created a fan platform for Star Wars enthusiasts. Integrated SWAPI (Star Wars API) to fetch character and movie data. Designed responsive UI with React and CSS modules."
         }
+      },
+      "Experience": {
+        "experience": "Experience",
+        "experienceSubtitle": "These are technologies, some frameworks and tools I've worked with"
       }
 }

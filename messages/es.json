@@ -24,30 +24,42 @@
         "homeSubtitle": "Te invito a conocer más sobre mí y lo que hago",
         "projects": "Proyectos"
       },
-      "Projects":{
+      "Projects": {
         "projects": "Proyectos",
         "projectsSubtitle": "Echa un vistazo a algunos de mis trabajos aquí",
         "demo": "Demo",
         "code": "Código",
-        "Cheers": {
-          "title": "",
-          "description": ""
-        },
-        "Nearbytour": {
-          "title": "",
-          "description": ""
-        },
-        "aracellipmu": {
-          "title": "Aracelli PMU",
-          "description": "Freelance e-commerce built with Next.js. Implemented high-conversion flow redirecting to external platform, boosting sales by 40% through SEO and performance optimizations."
+        "cheers": {
+          "title": "Cheers - Solución SaaS",
+          "description": "Desarrollo full-stack de una plataforma SaaS para pedidos de bebidas. Integración de pagos con Stripe, base de datos en tiempo real con Firebase y generación de códigos QR. Implementación de soporte multilingüe y panel de administración."
+          },
+        "nearbytour": {
+            "title": "NearByTour - Plataforma de Viajes",
+            "description": "Lideré el desarrollo frontend con Next.js y TypeScript. Creé mapas interactivos y tarjetas de experiencia con Tailwind CSS. Implementé funciones de geolocalización y optimización de carga de imágenes."
+          },
+        "aracellipmu":{
+          "title": "Aracelli PMU - Comercio Electrónico",
+          "description": "Solución de e-commerce freelance con Next.js. Desarrollé un flujo de UI/UX de alta conversión con integración de plataformas externas. Aumenté las ventas del cliente en un 40% mediante optimización SEO y mejoras de rendimiento."
         },
         "thinderpet": {
-          "title": "",
-          "description": ""
+          "title": "ThinderPet - Conexión de Mascotas",
+          "description": "Creé un sistema de perfiles de mascotas con filtros de búsqueda avanzados. Implementé funcionalidad de deslizamiento y gestión de perfiles de mascotas."
         },
-        "tunematch":{
-          "title": "",
-          "description": ""
+        "tunematch": {
+          "title": "TuneMatch - Red Social Musical",
+          "description": "Lideré el desarrollo frontend con React y Tailwind CSS, implementando una interfaz responsiva y optimizada para la mejor experiencia de usuario. Desarrollé el sistema de mensajería privada en tiempo real y la integración de funcionalidades interactivas para la conexión entre usuarios con intereses musicales similares."
+        },
+        "videogames": {
+          "title": "API de Videojuegos - Plataforma de Juegos",
+          "description": "Desarrollé una API RESTful para la gestión de datos de videojuegos. Implementé operaciones CRUD y filtros de búsqueda. Construido con Node.js, Express y PostgreSQL."
+        },
+        "starwars": {
+          "title": "Star Wars Wiki - Plataforma para Fans",
+          "description": "Creé una plataforma para fanáticos de Star Wars. Integré SWAPI (Star Wars API) para obtener datos de personajes y películas. Diseñé una interfaz responsiva con React y módulos de CSS."
         }
+      },
+      "Experience": {
+         "experience": "Experiencia",
+         "experienceSubtitle": "Estas son tecnologías, algunos frameworks y herramientas con las que he trabajado"
       }
 }
