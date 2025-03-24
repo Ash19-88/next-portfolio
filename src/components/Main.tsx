@@ -33,13 +33,13 @@ const Main = () => {
           </div>
         </div>
         <div className="pt-24">
-          <Image
-            src="/myphoto.png"
-            alt="Foto profile"
-            width={500}
-            height={300} 
-            className="mx-auto w-2/3 md:w-full"
-          />
+            <Image
+              src="/myphoto.png"
+              alt="Photo profile"
+              width={500}
+              height={300}
+              className="mx-auto w-2/3 md:w-full rounded-3xl "
+              />   
         </div>
       </div>
     </section>

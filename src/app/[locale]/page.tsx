@@ -8,7 +8,7 @@ import SocialLinks from "@/components/SocialLinks";
 
 export default function HomePage() {
   return (
-    <div className="bg-zinc-950 ">
+    <div className="bg-zinc-950">
       <NavBar />
       <Main />
       <About />
