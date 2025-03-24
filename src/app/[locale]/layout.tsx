@@ -19,7 +19,7 @@ const font_alexBrush = Alex_Brush({
 });
 
 interface Params {
-  params: { locale: string };
+  params: Promise<{ locale: string }>; 
 }
 
 interface SEO {
@@ -33,6 +33,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const seoMessages: SEO = typeof messages.SEO === 'object' ? (messages.SEO as SEO) : {};
 
   return {
+    metadataBase: new URL("https://dominio.com"),
     title: seoMessages.title ?? 'AshTechSolutions',
     description: seoMessages.description ?? 'Portfolio de desarrolladora web especializada en React, Next.js y JavaScript.',
     icons: {
