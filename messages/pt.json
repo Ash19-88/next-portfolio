@@ -1,4 +1,8 @@
 {
+  "SEO": {
+    "title": "AshTechSolutions",
+    "description": "Portfólio de uma desenvolvedora web especializada em React, Next.js e JavaScript."
+  },
     "About": {
         "about": "Sobre mim",
         "hi": "Olá! Eu sou Ash, uma desenvolvedora full-stack criativa e orientada para resultados.",

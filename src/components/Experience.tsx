@@ -32,7 +32,7 @@ const Experience = () => {
               className={`shadow-md hover:scale-110 pt-2 duration-500 rounded-lg ${style}`}
             >
               <Image src={src} alt={title} className="w-6 mx-auto sm:w-14" width={500}
-            height={300} />
+            height={300} unoptimized />
               <p className="mt-4">{title}</p>
             </div>
           ))}

@@ -4,18 +4,56 @@ import {notFound} from 'next/navigation';
 import {Locale, routing} from '@/i18n/routing';
 import { Raleway, Alex_Brush } from 'next/font/google';
 import "../../globals.css"
+import { Metadata } from 'next';
 
-export const font_Raleway = Raleway({
+const font_Raleway = Raleway({
   subsets: ['latin'],
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
   variable: '--font_Raleway'
 });
 
-export const font_alexBrush = Alex_Brush({
+const font_alexBrush = Alex_Brush({
   subsets: ['latin'],
   weight: ['400'],
   variable: '--font_alexBrush'
 });
+
+interface Params {
+  params: { locale: string };
+}
+
+interface SEO {
+  title?: string;
+  description?: string;
+}
+
+export async function generateMetadata({ params }: Params): Promise<Metadata> {
+  const { locale } = await params;
+  const messages = await getMessages({ locale });
+  const seoMessages: SEO = typeof messages.SEO === 'object' ? (messages.SEO as SEO) : {};
+
+  return {
+    title: seoMessages.title ?? 'AshTechSolutions',
+    description: seoMessages.description ?? 'Portfolio de desarrolladora web especializada en React, Next.js y JavaScript.',
+    icons: {
+      icon: '/favicon.png',
+    },
+    openGraph: {
+      title: seoMessages.title ?? 'AshTechSolutions',
+      description: seoMessages.description ?? 'Portfolio de desarrolladora web especializada en React, Next.js y JavaScript.',
+      images: [
+        {
+          url: '/og-image.png',  
+          width: 1200, 
+          height: 630,  
+          alt: 'Portfolio de AshTechSolutions - Desarrolladora web'  
+        }
+      ],
+      url: 'https://dominio.com',
+    },
+  };
+}
+
 
 export default async function LocaleLayout({
   children,
@@ -30,9 +68,10 @@ export default async function LocaleLayout({
     notFound();
   }
  
-  // Providing all messages to the client
-  // side is the easiest way to get started
-  const messages = await getMessages();
+
+  const messages = await getMessages({locale});
+
+
  
   return (
     <html lang={locale}>
