@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const seoMessages: SEO = typeof messages.SEO === 'object' ? (messages.SEO as SEO) : {};
 
   return {
-    metadataBase: new URL("https://dominio.com"),
+    metadataBase: new URL("https://ashtech-solutions-portfolio.vercel.app"),
     title: seoMessages.title ?? 'AshTechSolutions',
     description: seoMessages.description ?? 'Portfolio de desarrolladora web especializada en React, Next.js y JavaScript.',
     icons: {
@@ -50,7 +50,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
           alt: 'Portfolio de AshTechSolutions - Desarrolladora web'  
         }
       ],
-      url: 'https://dominio.com',
+      url: 'https://ashtech-solutions-portfolio.vercel.app',
     },
   };
 }
