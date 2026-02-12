@@ -28,11 +28,11 @@ const Footer = () => {
         </div>
         <p className="text-center flex lg:text-center mb-2 mt-3 lg:mb-2">
           {t("developedBy")}{" "}
-          <span className="mr-2 ml-2 text-blue-600 hover:text-blue-300 cursor-pointer"><a href="https://www.linkedin.com/in/ayelen-llampa1988/">Ayelen Llampa</a> </span>
+          <span className="mr-1 ml-2 text-blue-600 hover:text-blue-300 cursor-pointer"><a href="https://www.linkedin.com/in/ayelen-llampa1988/">Ayelen Llampa</a> </span>
         </p>
         <div className="flex justify-center mb-4 lg:mb-2 lg:text-center lg:mt-3">
           <p>
-            {t("copyright")} &copy;{year}
+            {t("copyright")} {year}
           </p>
         </div>
       </div>

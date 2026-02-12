@@ -100,12 +100,6 @@ const NavBar = () => {
                 >
                   {t("spanish")}
                 </button>
-                <button
-                  className="block px-4 py-2 text-sm hover:bg-zinc-900 hover:text-slate-100 w-full text-left"
-                  onClick={() => changeLanguage("pt")}
-                >
-                  {t("portuguese")}
-                </button>
               </div>
             </div>
           )}

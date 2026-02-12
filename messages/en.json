@@ -1,80 +1,79 @@
 {
   "SEO": {
-    "title": "AshTechSolutions",
+    "title": "Ayelen Llampa | Frontend Developer",
     "description": "Portfolio of a web developer specialized in React, Next.js, and JavaScript."
   },
-    "About": {
-        "about": "About",
-        "hi": "Hi! I'm Ash, a creative and results-driven full-stack developer.",
-        "techs": "I've worked with a variety of technologies in web development,including languages such as JavaScript, Typescript and SQL.",
-        "ux": "For user experience, I've been developing with React,Next JS, Redux, Hooks, React-Router, Bootstrap, TailwindCSS, CSS and more. On the Back-End, I've been working with Node.js and Express, and in terms of databases, I've been storing and organizing data with Sequelize, PostgreSQL, SQLite, Firebase, among others. Also, I have experience with tools like GitHub, Postman, Trello, Jira, Slack, Visual Studio, Vercel, Canva and Figma. At the moment, I am learning React Native and strengthening my frontend development skills.",
-        "background": "My background as an English teacher helped me to develop useful soft skills, such as leadership, teamwork and proactive problem-solving. Also, I'm well-organized in managing projects and timelines. Above all, I'm passionate about technology, thrive in collaborative environments and open to new challenges."
-      },
-      "NavBar":{
-        "title": "AshTech Solutions",
-        "home": "Home",
-        "about": "About",
-        "projects": "Projects",
-        "experience": "Experience",
-        "contact": "Contact",
-        "changeLanguage": "Change Language",
-        "english": "English",
-        "spanish": "Spanish",
-        "portuguese": "Portuguese"
-      },
-      "Main":{
-        "home": "Home",
-        "homeTitle": "Building beautiful web experiences",
-        "homeSubtitle": "I invite you to know more about me and what I do",
-        "projects": "Projects"
-      },
-      "Projects":{
-        "projects": "Projects",
-        "projectsSubtitle": "Check out some of my work here",
-        "demo": "Demo",
-        "code": "Code",
-        "cheers": {
-          "title": "Cheers - SaaS Solution",
-          "description": "Full-stack development of a SaaS platform for beverage orders. Integrated Stripe payments, real-time database with Firebase, and QR code generation. Implemented multilingual support and admin dashboard."
-        },
-        "nearbytour": {
-          "title": "NearByTour - Travel Platform",
-      "description": "Led frontend development using Next.js and TypeScript. Created interactive maps and experience cards with Tailwind CSS. Implemented geolocation features and optimized image loading."
-        },
-        "aracellipmu": {
-          "title": "Goddess Permanent- E-commerce",
-      "description": "Freelance Next.js e-commerce solution. Developed high-conversion UI/UX flow with external platform integration. Boosted client sales by 40% through SEO optimizations and performance tuning."
-        },
-        "thinderpet": {
-           "title": "ThinderPet - Pet Matching",
-      "description": "Created pet profile system with advanced search filters. Implemented swipe functionality and pet profile management."
-        },
-        "tunematch":{
-          "title": "TuneMatch - Music Social",
-           "description": "Led the frontend development using React and Tailwind CSS, creating a responsive and optimized user interface. Developed the real-time private messaging system and integrated interactive features to connect users with similar musical interests."
-        },
-        "videogames": {
-          "title": "Video Games API - Gaming Platform",
-          "description": "Developed a RESTful API for video game data management. Implemented CRUD operations, and search filters. Built with Node.js, Express, and PostgreSQL."
-        },
-        "starwars": {
-          "title": "Star Wars Wiki - Fan Platform",
-          "description": "Created a fan platform for Star Wars enthusiasts. Integrated SWAPI (Star Wars API) to fetch character and movie data. Designed responsive UI with React and CSS modules."
-        }
-      },
-      "Experience": {
-        "experience": "Experience",
-        "experienceSubtitle": "These are technologies, some frameworks and tools I've worked with"
-      },
-      "Footer": {
-        "developedBy": "Developed by",
-        "copyright": "copyright"
-      },
-      "SocialLinks":{
-        "whatsappLink": "WhatsApp",
-        "linkedinLink": "LinkedIn",
-        "githubLink": "GitHub",
-        "mailLink": "Mail",
-        "resumeLink": "Resume"
-      }
+  "About": {
+    "about": "About",
+    "hi": "Hi! I'm Ayelén, a Frontend Developer focused on building clean and scalable web applications.",
+    "techs": "Over the last few years, I’ve worked on SaaS products where I was responsible for developing UI features, improving performance, integrating Stripe payment flows and implementing internationalization (i18n).",
+    "ux": "I enjoy working with React, Next.js and TypeScript to translate complex product requirements into intuitive and accessible user interfaces. I care about maintainable architecture, reusable components and real-world performance.",
+    "background": "Before transitioning into tech, I trained as an English teacher. That experience strengthened my communication skills, leadership, and ability to explain complex concepts clearly — qualities that now help me collaborate effectively in remote agile teams and contribute with confidence to frontend decisions."
+  },
+  "NavBar": {
+    "title": "AshTech Solutions",
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact",
+    "changeLanguage": "Change Language",
+    "english": "English",
+    "spanish": "Spanish"
+  },
+  "Main": {
+    "home": "Home",
+    "homeTitle": "Crafting beautiful web experiences",
+    "homeSubtitle": "I invite you to know more about me and what I do",
+    "projects": "Projects"
+  },
+  "Projects": {
+    "projects": "Projects",
+    "projectsSubtitle": "Selected projects showcasing frontend architecture, performance and UI development",
+    "demo": "Demo",
+    "code": "Code",
+    "cheers": {
+      "title": "Cheers - SaaS Solution",
+      "description": "Frontend-focused development of a scalable SaaS platform for beverage ordering. Built reusable UI components with React and TypeScript, implemented Stripe payment flows, internationalization (i18n), dynamic QR generation and an admin dashboard. Optimized performance and improved user experience across devices."
+    },
+    "nearbytour": {
+      "title": "NearByTour - Travel Platform",
+      "description": "Led frontend architecture using Next.js and TypeScript. Developed responsive layouts, interactive maps and dynamic experience cards with Tailwind CSS. Implemented geolocation features and optimized image loading for better performance."
+    },
+    "aracellipmu": {
+      "title": "Goddess Permanent- E-commerce",
+      "description": "Freelance Next.js e-commerce project focused on conversion-driven UI/UX. Built responsive layouts, optimized SEO structure and improved performance, contributing to a 40% increase in client sales."
+    },
+    "thinderpet": {
+      "title": "ThinderPet - Pet Matching",
+      "description": "Developed the frontend of a pet matching platform with advanced search filters and swipe-based interactions. Focused on state management, responsive UI and smooth user experience."
+    },
+    "tunematch": {
+      "title": "TuneMatch - Music Social",
+      "description": "Led frontend development using React and Tailwind CSS. Designed a responsive UI, implemented real-time private messaging and built interactive features to connect users based on musical interests."
+    },
+    "videogames": {
+      "title": "Video Games API - Gaming Platform",
+      "description": "Built a RESTful API with Node.js, Express and PostgreSQL, implementing CRUD operations and advanced search filters. Designed structured endpoints to support frontend consumption."
+    },
+    "starwars": {
+      "title": "Star Wars Wiki - Fan Platform",
+      "description": "Developed a responsive React application integrating SWAPI to fetch dynamic character and movie data. Focused on clean component structure and user-friendly navigation."
+    }
+  },
+  "Experience": {
+    "experience": "Experience",
+    "experienceSubtitle": "Technologies, frameworks and tools I use to build modern frontend applications"
+  },
+  "Footer": {
+    "developedBy": "Designed & Developed by",
+    "copyright": "©"
+  },
+  "SocialLinks": {
+    "whatsappLink": "WhatsApp",
+    "linkedinLink": "LinkedIn",
+    "githubLink": "GitHub",
+    "mailLink": "Mail",
+    "resumeLink": "Resume"
+  }
 }
