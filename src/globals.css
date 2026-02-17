@@ -1,3 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.glow-border {
+  border: 1px solid transparent;
+  background: linear-gradient(
+      90deg,
+      transparent,
+      #ec4899,
+      #a855f7,
+      #ec4899,
+      transparent
+    )
+    border-box;
+  -webkit-mask: 
+    linear-gradient(#000 0 0) padding-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  animation: glowMove 2s linear infinite;
+}
+
+@keyframes glowMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-120%);
+  }
+}
+
+.animate-scrollText {
+  animation: scrollText 14s linear infinite;
+}
