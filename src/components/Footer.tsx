@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 import React from "react";
-import { BsFillPersonLinesFill, BsGithub, BsLinkedin, BsWhatsapp } from "react-icons/bs";
+import { BsFillPersonLinesFill, BsGithub, BsLinkedin } from "react-icons/bs";
 
 
 
@@ -13,9 +13,6 @@ const Footer = () => {
     <div>
       <div className="w-full bg-zinc-900 text-white flex flex-col space-x-3 align-middle justify-center items-center ml-auto mr-auto pl-6 pr-4 pt-6 pb-4 lg:pt-2 lg:flex-row font-Raleway">
         <div className="flex justify-center lg:hidden space-x-6">
-          <a href="https://wa.link/mdejk5">
-            <BsWhatsapp size={23} />
-          </a>
           <a href="/Ayelen-Llampa-resume.pdf">
             <BsFillPersonLinesFill size={23} />
           </a>
