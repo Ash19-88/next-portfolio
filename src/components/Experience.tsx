@@ -12,7 +12,7 @@ const Experience = () => {
       id={t("experience")}
       className="w-full h-full font-Raleway"
     >
-      <div className="max-w-screen-lg mx-auto p-4 lg:px-20 flex flex-col justify-center w-full text-white">
+      <div className="max-w-screen-lg w-auto py-10 px-8 md:px-20 lg:px-24 mx-auto justify-center text-white">
         <div className="pt-20 lg:pt-16 2xl:pt-32">
           <p className="text-2xl md:text-4xl font-bold border-b-4 border-slate-400 px-2 pb-2 inline ">
             {t("experience")}
