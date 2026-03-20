@@ -5,7 +5,7 @@ const About = () => {
 
   return (
     <section id={t("about")} className="w-full min-h-screen font-Raleway py-24">
-      <div className="max-w-screen-xl mx-auto px-6">
+      <div className="max-w-screen-lg w-auto py-10 md:px-20 lg:px-24 px-8 mx-auto">
         {/* Title */}
         <div className="mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-white border-b-4 border-slate-500 inline-block pb-2">

@@ -19,7 +19,7 @@ export const projects: Project[] = [
         site: "https://www.cheerspain.com/",
         style: "shadow-yellow-600",
         alt: "Cheers",
-        width: 360,
+        width: 700,
         height: 100,
         translationKey: "cheers",
         techStack: ["React", "TypeScript", "Tailwind CSS", "Firebase", "Stripe"]
@@ -31,7 +31,7 @@ export const projects: Project[] = [
         site: "https://nearbytour.vercel.app/home",
         style: "shadow-orange-500",
         alt: "NearByTour",
-        width: 360,
+        width: 700,
         height: 100,
         translationKey: "nearbytour",
         techStack: ["Next.js", "React", "TypeScript", "Tailwind CSS"]
@@ -43,7 +43,7 @@ export const projects: Project[] = [
         site: "https://goddess-permanent.vercel.app/",
         style: "shadow-pink-400",
         alt: "Goddess Permanent",
-        width: 360,
+        width: 700,
         height: 100,
         translationKey: "aracellipmu",
         techStack: ["React", "TypeScript", "Tailwind CSS"]
@@ -55,7 +55,7 @@ export const projects: Project[] = [
         site: "https://thinderpet.vercel.app/",
         style: "shadow-pink-300",
         alt: "Thinderpet",
-        width: 360,
+        width: 700,
         height: 100,
         translationKey: "thinderpet",
         techStack: ["React", "JavaScript", "Tailwind CSS"]
@@ -67,7 +67,7 @@ export const projects: Project[] = [
         site: "https://s13-05-t-node-react-1b9t.onrender.com/",
         style: "shadow-purple-400",
         alt: "TuneMatch",
-        width: 360,
+        width: 700,
         height: 100,
         translationKey: "tunematch",
         techStack: ["React", "JavaScript", "Tailwind CSS", "Redux Toolkit"]
@@ -79,7 +79,7 @@ export const projects: Project[] = [
         site: "https://videogames-ashtech.vercel.app/",
         style: "shadow-violet-600",
         alt: "Videogames",
-        width: 360,
+        width: 700,
         height: 100,
         translationKey: "videogames",
        techStack: ["React", "Redux", "JavaScript"]
@@ -91,7 +91,7 @@ export const projects: Project[] = [
         site: "https://star-wars-ashtechsolutions.netlify.app/",
         style: "shadow-red-500",
         alt: "Star Wars",
-        width: 360,
+        width: 700,
         height: 100,
         translationKey: "starwars",
           techStack: ["React", "TypeScript", "Redux Toolkit", "CSS"]

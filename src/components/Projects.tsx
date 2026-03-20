@@ -11,7 +11,7 @@ const Projects = () => {
       id={t("projects")}
       className="w-full text-white md:h-full font-Raleway"
     >
-      <div className="max-w-screen-lg w-auto py-10 md:px-20 lg:px-24 px-8 mx-auto flex flex-col justify-center min-h-screen">
+      <div className="max-w-screen-lg w-auto py-10 px-8 md:px-20 lg:px-24 mx-auto flex flex-col justify-center min-h-screen">
         <div className="pb-8 pt-20 md:pt-2">
           <p className="text-2xl md:text-4xl font-bold inline border-b-4 border-slate-400">
             {t("projects")}

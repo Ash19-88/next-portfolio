@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 import React from "react";
-import { BsFillPersonLinesFill, BsWhatsapp } from "react-icons/bs";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 
@@ -11,23 +11,13 @@ const SocialLinks = () => {
       id: 1,
       child: (
         <>
-          {t("whatsappLink")} <BsWhatsapp size={30} />
-        </>
-      ),
-      href: "https://wa.link/mdejk5",
-      style: "rounded-tr-md ",
-    },
-    {
-      id: 2,
-      child: (
-        <>
           {t("linkedinLink")} <FaLinkedin size={30} />
         </>
       ),
       href: "https://www.linkedin.com/in/ayelen-llampa1988",
     },
     {
-      id: 3,
+      id: 2,
       child: (
         <>
           {t("githubLink")} <FaGithub size={30} />
@@ -36,7 +26,7 @@ const SocialLinks = () => {
       href: "https://github.com/Ash19-88",
     },
     {
-      id: 4,
+      id: 3,
       child: (
         <>
           {t("resumeLink")} <BsFillPersonLinesFill size={30} />
