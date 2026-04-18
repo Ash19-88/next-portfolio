@@ -2,33 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-.glow-border {
-  border: 1px solid transparent;
-  background: linear-gradient(
-      90deg,
-      transparent,
-      #ec4899,
-      #a855f7,
-      #ec4899,
-      transparent
-    )
-    border-box;
-  -webkit-mask: 
-    linear-gradient(#000 0 0) padding-box,
-    linear-gradient(#000 0 0);
-  -webkit-mask-composite: xor;
-          mask-composite: exclude;
-  animation: glowMove 2s linear infinite;
+@layer utilities {
+  .glow-border {
+    @apply border border-cyan-500/50 shadow-[0_0_15px_rgba(34,211,238,0.5)];
+  }
+  .mask-radial-fade {
+    /* Crea un degradado que va de opaco (centro) a transparente (bordes) */
+    -webkit-mask-image: radial-gradient(circle, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 70%);
+    mask-image: radial-gradient(circle, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 70%);
+    
+    /* Asegura que la máscara no se repita y cubra la imagen */
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    -webkit-mask-position: center;
+    mask-position: center;
+  }
 }
 
-@keyframes glowMove {
-  0% {
-    background-position: 0% 50%;
-  }
-  100% {
-    background-position: 200% 50%;
-  }
-}
 
 @keyframes scrollText {
   0% {
