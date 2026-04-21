@@ -28,37 +28,43 @@
     "projects": "Projects"
   },
   "Projects": {
-    "projects": "Projects",
-    "projectsSubtitle": "Selected projects showcasing frontend architecture, performance and UI development",
-    "demo": "Demo",
-    "code": "Code",
+    "projects": "Selected Work",
+    "projectsSubtitle": "A collection of high-performance digital solutions, focused on clean architecture and exceptional user experiences.",
+    "viewDetails": "View Details",
+    "visitSite": "Visit Site",
+    "explore": "Explore Case Study",
+    "livePreview": "LIVE PREVIEW",
+    "sourceCode": "SOURCE CODE",
+    "techStack": "TECH STACK",
     "cheers": {
-      "title": "Cheers - SaaS Solution",
-      "description": "Frontend-focused development of a scalable SaaS platform for beverage ordering. Built reusable UI components with React and TypeScript, implemented Stripe payment flows, internationalization (i18n), dynamic QR generation and an admin dashboard. Optimized performance and improved user experience across devices."
+      "title": "Cheers - SaaS Beverage Ecosystem",
+      "shortDescription": "Full-stack SaaS solution featuring real-time ordering and dynamic QR systems.",
+      "description": "Engineered a scalable SaaS platform for high-traffic beverage ordering. Focused on building a resilient frontend with React and TypeScript, integrating complex Stripe payment flows, and developing a dynamic QR code generation system for table-specific ordering. Delivered a comprehensive admin dashboard for real-time inventory and sales tracking."
     },
     "nearbytour": {
-      "title": "NearByTour - Travel Platform",
-      "description": "Led frontend architecture using Next.js and TypeScript. Developed responsive layouts, interactive maps and dynamic experience cards with Tailwind CSS. Implemented geolocation features and optimized image loading for better performance."
+      "title": "NearByTour - Geo-Exploration Platform",
+      "shortDescription": "Modern travel experience powered by Next.js and real-time geolocation.",
+      "description": "Architected a high-performance travel platform utilizing Next.js for server-side rendering and SEO optimization. Developed an interactive mapping interface and dynamic discovery cards. Successfully implemented geolocation services and advanced asset optimization, resulting in a seamless mobile-first browsing experience."
     },
     "aracellipmu": {
-      "title": "Goddess Permanent- E-commerce",
-      "description": "Freelance Next.js e-commerce project focused on conversion-driven UI/UX. Built responsive layouts, optimized SEO structure and improved performance, contributing to a 40% increase in client sales."
+      "title": "Goddess Permanent - E-commerce Growth",
+      "shortDescription": "Conversion-driven e-commerce platform with a 40% sales increase.",
+      "description": "Designed and developed a specialized e-commerce experience with a focus on conversion rate optimization (CRO). By streamlining the checkout flow and implementing a robust SEO strategy with Next.js, the project contributed to a 40% measurable increase in client sales and significantly improved page speed metrics."
     },
     "thinderpet": {
-      "title": "ThinderPet - Pet Matching",
-      "description": "Developed the frontend of a pet matching platform with advanced search filters and swipe-based interactions. Focused on state management, responsive UI and smooth user experience."
-    },
-    "tunematch": {
-      "title": "TuneMatch - Music Social",
-      "description": "Led frontend development using React and Tailwind CSS. Designed a responsive UI, implemented real-time private messaging and built interactive features to connect users based on musical interests."
+      "title": "ThinderPet - Pet Discovery System",
+      "shortDescription": "Interactive matching platform with complex state management and fluid UI.",
+      "description": "Developed a high-engagement pet matching platform featuring advanced multi-criteria filtering and a gesture-based 'swipe' interaction system. Focused on managing complex application states and creating smooth, performant animations for a gamified user experience."
     },
     "videogames": {
-      "title": "Video Games API - Gaming Platform",
-      "description": "Built a RESTful API with Node.js, Express and PostgreSQL, implementing CRUD operations and advanced search filters. Designed structured endpoints to support frontend consumption."
+      "title": "Gaming Nexus - API Dashboard",
+      "shortDescription": "Comprehensive gaming database with advanced CRUD and filtering logic.",
+      "description": "Built a robust Single Page Application (SPA) consuming a custom-built RESTful API. Implemented sophisticated data management features, including multi-parameter search filters, combined sorting algorithms, and controlled forms for dynamic data entry, all wrapped in a dark-themed gaming aesthetic."
     },
     "starwars": {
-      "title": "Star Wars Wiki - Fan Platform",
-      "description": "Developed a responsive React application integrating SWAPI to fetch dynamic character and movie data. Focused on clean component structure and user-friendly navigation."
+      "title": "The Force Wiki - Data Explorer",
+      "shortDescription": "Dynamic encyclopedia integrating REST APIs with a modular React architecture.",
+      "description": "Created an interactive Star Wars encyclopedia by integrating the SWAPI database. Focused on building a highly modular component architecture and an intuitive navigation system. Optimized data fetching patterns to ensure a fast, responsive experience across all device types."
     }
   },
   "Experience": {

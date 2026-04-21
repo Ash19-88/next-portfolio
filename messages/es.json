@@ -29,36 +29,42 @@
   },
   "Projects": {
     "projects": "Proyectos",
-    "projectsSubtitle": "Proyectos seleccionados que reflejan arquitectura frontend, rendimiento y desarrollo de interfaz",
-    "demo": "Demo",
-    "code": "Código",
+    "projectsSubtitle": "Soluciones digitales con foco en rendimiento y UX",
+    "viewDetails": "Ver detalles",
+    "visitSite": "Visitar Sitio",
+    "explore": "Explorar Caso",
+    "livePreview": "DEMO EN VIVO",
+    "sourceCode": "CÓDIGO FUENTE",
+    "techStack": "STACK TECNOLÓGICO",
     "cheers": {
       "title": "Cheers - Solución SaaS",
-      "description": "Desarrollo con foco en frontend de una plataforma SaaS escalable para pedidos de bebidas. Construí componentes reutilizables con React y TypeScript, implementé pagos con Stripe, internacionalización (i18n), generación dinámica de códigos QR y panel administrativo. Optimicé rendimiento y experiencia de usuario en múltiples dispositivos."
+      "shortDescription": "Plataforma escalable para pedidos de bebidas con pagos integrados.",
+      "description": "Desarrollo con foco en frontend de una plataforma SaaS escalable para pedidos de bebidas. Construí componentes reutilizables con React y TypeScript, implementé pagos con Stripe, internacionalización (i18n), generación dinámica de códigos QR y panel administrativo."
     },
     "nearbytour": {
-      "title": "NearByTour - Plataforma de Viajes",
-      "description": "Lideré la arquitectura frontend con Next.js y TypeScript. Desarrollé layouts responsivos, mapas interactivos y tarjetas dinámicas con Tailwind CSS. Implementé geolocalización y optimización de imágenes para mejorar el rendimiento."
+      "title": "NearByTour - Viajes",
+      "shortDescription": "Arquitectura moderna para la exploración turística con Next.js.",
+      "description": "Lideré la arquitectura frontend con Next.js y TypeScript. Desarrollé layouts responsivos, mapas interactivos y tarjetas dinámicas con Tailwind CSS. Implementé geolocalización y optimización de imágenes."
     },
     "aracellipmu": {
       "title": "Goddess Permanent - E-commerce",
-      "description": "Proyecto freelance en Next.js enfocado en una experiencia de compra optimizada para conversión. Construí layouts responsivos, mejoré la estructura SEO y optimicé el rendimiento, contribuyendo a un aumento del 40% en las ventas del cliente."
+      "shortDescription": "Experiencia de compra optimizada para conversión y SEO.",
+      "description": "Proyecto freelance enfocado en una experiencia de compra optimizada. Construí layouts responsivos, mejoré la estructura SEO y optimicé el rendimiento, contribuyendo a un aumento del 40% en las ventas."
     },
     "thinderpet": {
-      "title": "ThinderPet - Plataforma de Matching",
-      "description": "Desarrollé el frontend de una plataforma de matching para mascotas con filtros avanzados y sistema de interacción tipo swipe. Me enfoqué en manejo de estado, interfaz responsiva y experiencia fluida."
-    },
-    "tunematch": {
-      "title": "TuneMatch - Red Social Musical",
-      "description": "Lideré el desarrollo frontend con React y Tailwind CSS. Diseñé una interfaz responsiva, implementé mensajería privada en tiempo real y desarrollé funcionalidades interactivas para conectar usuarios según intereses musicales."
+      "title": "ThinderPet - Matching",
+      "shortDescription": "Interfaz interactiva con sistema de filtros avanzados.",
+      "description": "Plataforma de matching para mascotas con filtros avanzados y sistema de interacción tipo swipe. Foco en manejo de estado complejo y animaciones fluidas."
     },
     "videogames": {
-      "title": "Video Games API - Plataforma Gaming",
-      "description": "Desarrollé una API REST con Node.js, Express y PostgreSQL implementando operaciones CRUD y filtros avanzados de búsqueda. Diseñé endpoints estructurados para facilitar el consumo desde el frontend."
+      "title": "Video Games API",
+      "shortDescription": "Plataforma gaming con gestión de datos y filtros complejos.",
+      "description": "Desarrollé una SPA que consume una API propia. Implementé operaciones CRUD, búsquedas, ordenamientos combinados y formularios controlados para la creación de nuevos videojuegos."
     },
     "starwars": {
-      "title": "Star Wars Wiki - Plataforma Fan",
-      "description": "Desarrollé una aplicación React responsiva integrando SWAPI para obtener datos dinámicos de personajes y películas. Me enfoqué en estructura limpia de componentes y navegación clara."
+      "title": "Star Wars Wiki",
+      "shortDescription": "Enciclopedia digital interactiva utilizando SWAPI.",
+      "description": "Aplicación responsiva integrando la API de Star Wars para visualizar datos dinámicos. Enfoque en arquitectura limpia de componentes y navegación optimizada."
     }
   },
   "Experience": {

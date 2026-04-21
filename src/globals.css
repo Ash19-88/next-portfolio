@@ -8,9 +8,17 @@
   }
   .mask-radial-fade {
     /* Crea un degradado que va de opaco (centro) a transparente (bordes) */
-    -webkit-mask-image: radial-gradient(circle, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 70%);
-    mask-image: radial-gradient(circle, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 70%);
-    
+    -webkit-mask-image: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 1) 40%,
+      rgba(0, 0, 0, 0) 70%
+    );
+    mask-image: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 1) 40%,
+      rgba(0, 0, 0, 0) 70%
+    );
+
     /* Asegura que la máscara no se repita y cubra la imagen */
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
@@ -19,8 +27,22 @@
     -webkit-mask-position: center;
     mask-position: center;
   }
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 10px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    border: 2px solid transparent;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(34, 211, 238, 0.4); /* Cyan con transparencia */
+  }
 }
-
 
 @keyframes scrollText {
   0% {
