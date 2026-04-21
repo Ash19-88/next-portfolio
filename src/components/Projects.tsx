@@ -47,6 +47,7 @@ const Projects = () => {
                     alt={project.alt}
                     width={1200}
                     height={700}
+                    unoptimized
                     className="object-cover w-full h-auto transform transition-all duration-1000 group-hover:scale-105 brightness-[0.8] group-hover:brightness-110"
                   />
                   {/* Glassmorphism Overlay */}
