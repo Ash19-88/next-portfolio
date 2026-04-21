@@ -8,7 +8,10 @@
     "hi": "Hola, soy Ayelén, desarrolladora Frontend enfocada en crear aplicaciones web limpias, escalables y centradas en el usuario.",
     "techs": "En los últimos años trabajé en productos SaaS donde fui responsable del desarrollo de funcionalidades de interfaz, mejoras de rendimiento, integración de pagos con Stripe e implementación de internacionalización (i18n).",
     "ux": "Disfruto trabajar con React, Next.js y TypeScript para transformar requerimientos complejos en interfaces intuitivas y accesibles. Me enfoco en arquitectura mantenible, componentes reutilizables y rendimiento en escenarios reales.",
-    "background": "Antes de dedicarme al desarrollo, me formé como profesora de inglés. Esa experiencia fortaleció mi comunicación, liderazgo y capacidad de explicar conceptos complejos con claridad, habilidades que hoy aplico en equipos ágiles remotos y en la toma de decisiones frontend."
+    "background": "Antes de dedicarme al desarrollo, me formé como profesora de inglés. Esa experiencia fortaleció mi comunicación, liderazgo y capacidad de explicar conceptos complejos con claridad, habilidades que hoy aplico en equipos ágiles remotos y en la toma de decisiones frontend.",
+    "role": "Frontend Developer",
+    "focus": "['UI/UX', 'Performance', 'Motion']",
+    "status": "Disponible para nuevos desafíos"
   },
   "NavBar": {
     "title": "Ayelen Llampa",
@@ -73,6 +76,7 @@
   },
   "Footer": {
     "developedBy": "Diseñado y desarrollado por",
+    "footerSubtitle": "Frontend Developer con enfoque en interfaces de alto impacto y código escalable.",
     "copyright": "©"
   },
   "SocialLinks": {

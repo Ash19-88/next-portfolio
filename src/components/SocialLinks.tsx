@@ -8,17 +8,29 @@ const SocialLinks = () => {
   const links = [
     {
       id: 1,
-      child: (<>{t("linkedinLink")} <FaLinkedin size={25} /></>),
+      child: (
+        <>
+          {t("linkedinLink")} <FaLinkedin size={25} />
+        </>
+      ),
       href: "https://www.linkedin.com/in/ayelen-llampa1988",
     },
     {
       id: 2,
-      child: (<>{t("githubLink")} <FaGithub size={25} /></>),
+      child: (
+        <>
+          {t("githubLink")} <FaGithub size={25} />
+        </>
+      ),
       href: "https://github.com/Ash19-88",
     },
     {
       id: 3,
-      child: (<>{t("resumeLink")} <BsFillPersonLinesFill size={25} /></>),
+      child: (
+        <>
+          {t("resumeLink")} <BsFillPersonLinesFill size={25} />
+        </>
+      ),
       href: "/Ayelen-Llampa-resume.pdf",
       download: true,
     },

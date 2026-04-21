@@ -8,7 +8,10 @@
     "hi": "Hi! I'm Ayelén, a Frontend Developer focused on building clean and scalable web applications.",
     "techs": "Over the last few years, I've worked on SaaS products where I was responsible for developing UI features, improving performance, integrating Stripe payment flows and implementing internationalization (i18n).",
     "ux": "I enjoy working with React, Next.js and TypeScript to translate complex product requirements into intuitive and accessible user interfaces. I care about maintainable architecture, reusable components and real-world performance.",
-    "background": "Before transitioning into tech, I trained as an English teacher. That experience strengthened my communication skills, leadership, and ability to explain complex concepts clearly — qualities that now help me collaborate effectively in remote agile teams and contribute with confidence to frontend decisions."
+    "background": "Before transitioning into tech, I trained as an English teacher. That experience strengthened my communication skills, leadership, and ability to explain complex concepts clearly — qualities that now help me collaborate effectively in remote agile teams and contribute with confidence to frontend decisions.",
+    "role": "Frontend Developer",
+    "focus": "['UI/UX', 'Performance', 'Motion']",
+    "status": "Open to new challenges"
   },
   "NavBar": {
     "title": "Ayelen Llampa",
@@ -73,6 +76,7 @@
   },
   "Footer": {
     "developedBy": "Designed & Developed by",
+    "footerSubtitle": "Frontend Developer focused on high-impact interfaces and scalable code.",
     "copyright": "©"
   },
   "SocialLinks": {
