@@ -71,7 +71,8 @@
     },
     "raffle": {
       "title": "Raffle Manager - Plataforma para Eventos Escolares",
-      "shortDescription": "Aplicación web full-stack para gestionar rifas escolares. Incluye registro de alumnos, seguimiento de números en tiempo real, tableros interactivos e integración con Supabase para auditoría financiera."
+      "shortDescription": "Aplicación web full-stack para gestionar rifas escolares. Incluye registro de alumnos, seguimiento de números en tiempo real, tableros interactivos e integración con Supabase para auditoría financiera.",
+      "description": "Desarrollo completo de una solución a medida para digitalizar una rifa escolar a gran escala (721 números) entre 3 cursos. Creada con Next.js 16 (App Router), React 19 y Supabase. Incluye autenticación segura multi-rol mediante JWT y bcryptjs con cambio de contraseña obligatorio, paneles individuales para que cada estudiante registre sus ventas y un tablero global con métricas en tiempo real. Además, permite la exportación de registros para auditorías de la comisión de finanzas y el sorteo final."
     }
   },
   "Experience": {

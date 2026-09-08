@@ -71,7 +71,8 @@
     },
     "raffle": {
       "title": "Raffle Manager - School Event Platform",
-      "shortDescription": "Full-stack web application built for school fundraising events. Features custom student onboarding, real-time ticket tracking, interactive dashboards, and Supabase database integration for financial auditing[cite: 5]."
+      "shortDescription": "Full-stack web application built for school fundraising events. Features custom student onboarding, real-time ticket tracking, interactive dashboards, and Supabase database integration for financial auditing.",
+      "description": "Engineered a custom solution to digitize a large-scale school raffle (721 tickets). Developed a full-stack application using Next.js 16 (App Router), React 19, and Supabase. Key features include a secure multi-role authentication system (custom JWT/bcryptjs) requiring initial password changes for students, a personalized sales dashboard for tracking numbers, and a real-time global administrative board showing metrics and availability. Successfully facilitated data exports for the finance committee to audit sales and select winners."
     }
   },
   "Experience": {
