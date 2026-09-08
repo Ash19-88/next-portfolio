@@ -44,8 +44,19 @@ export const projects: Project[] = [
         translationKey: "aracellipmu",
         techStack: ["React", "TypeScript", "Tailwind CSS"]
     },
-    {
+       {
         id: 4,
+        src: "/raffle.gif",
+        github: "https://github.com/Ash19-88/raffle-manager",
+        site: "https://rifa-grilli2026.vercel.app/",
+        alt: "Raffle",
+        width: 700,
+        height: 100,
+        translationKey: "raffle",
+        techStack: ["React", "Typescript", "Tailwind CSS", "Supabase"]
+    },
+    {
+        id: 5,
         src: "/thinderpetPortfolio.gif",
         github: "https://github.com/No-Country/c13-36-t-node-react",
         site: "https://thinderpet.vercel.app/",

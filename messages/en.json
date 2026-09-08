@@ -35,7 +35,7 @@
     "projectsSubtitle": "A collection of high-performance digital solutions, focused on clean architecture and exceptional user experiences.",
     "viewDetails": "View Details",
     "visitSite": "Visit Site",
-    "explore": "Explore Case Study",
+    "explore": "View Project Details",
     "livePreview": "LIVE PREVIEW",
     "sourceCode": "SOURCE CODE",
     "techStack": "TECH STACK",
@@ -68,6 +68,10 @@
       "title": "The Force Wiki - Data Explorer",
       "shortDescription": "Dynamic encyclopedia integrating REST APIs with a modular React architecture.",
       "description": "Created an interactive Star Wars encyclopedia by integrating the SWAPI database. Focused on building a highly modular component architecture and an intuitive navigation system. Optimized data fetching patterns to ensure a fast, responsive experience across all device types."
+    },
+    "raffle": {
+      "title": "Raffle Manager - School Event Platform",
+      "shortDescription": "Full-stack web application built for school fundraising events. Features custom student onboarding, real-time ticket tracking, interactive dashboards, and Supabase database integration for financial auditing[cite: 5]."
     }
   },
   "Experience": {

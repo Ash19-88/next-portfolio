@@ -35,10 +35,10 @@
     "projectsSubtitle": "Soluciones digitales con foco en rendimiento y UX",
     "viewDetails": "Ver detalles",
     "visitSite": "Visitar Sitio",
-    "explore": "Explorar Caso",
+    "explore": "Ver detalles del proyecto",
     "livePreview": "DEMO EN VIVO",
     "sourceCode": "CÓDIGO FUENTE",
-    "techStack": "STACK TECNOLÓGICO",
+    "techStack": "STACK TÉCNICO",
     "cheers": {
       "title": "Cheers - Solución SaaS",
       "shortDescription": "Plataforma escalable para pedidos de bebidas con pagos integrados.",
@@ -68,6 +68,10 @@
       "title": "Star Wars Wiki",
       "shortDescription": "Enciclopedia digital interactiva utilizando SWAPI.",
       "description": "Aplicación responsiva integrando la API de Star Wars para visualizar datos dinámicos. Enfoque en arquitectura limpia de componentes y navegación optimizada."
+    },
+    "raffle": {
+      "title": "Raffle Manager - Plataforma para Eventos Escolares",
+      "shortDescription": "Aplicación web full-stack para gestionar rifas escolares. Incluye registro de alumnos, seguimiento de números en tiempo real, tableros interactivos e integración con Supabase para auditoría financiera."
     }
   },
   "Experience": {
