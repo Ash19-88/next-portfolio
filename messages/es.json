@@ -59,11 +59,6 @@
       "shortDescription": "Interfaz interactiva con sistema de filtros avanzados.",
       "description": "Plataforma de matching para mascotas con filtros avanzados y sistema de interacción tipo swipe. Foco en manejo de estado complejo y animaciones fluidas."
     },
-    "videogames": {
-      "title": "Video Games API",
-      "shortDescription": "Plataforma gaming con gestión de datos y filtros complejos.",
-      "description": "Desarrollé una SPA que consume una API propia. Implementé operaciones CRUD, búsquedas, ordenamientos combinados y formularios controlados para la creación de nuevos videojuegos."
-    },
     "starwars": {
       "title": "Star Wars Wiki",
       "shortDescription": "Enciclopedia digital interactiva utilizando SWAPI.",

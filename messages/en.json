@@ -59,11 +59,6 @@
       "shortDescription": "Interactive matching platform with complex state management and fluid UI.",
       "description": "Developed a high-engagement pet matching platform featuring advanced multi-criteria filtering and a gesture-based 'swipe' interaction system. Focused on managing complex application states and creating smooth, performant animations for a gamified user experience."
     },
-    "videogames": {
-      "title": "Gaming Nexus - API Dashboard",
-      "shortDescription": "Comprehensive gaming database with advanced CRUD and filtering logic.",
-      "description": "Built a robust Single Page Application (SPA) consuming a custom-built RESTful API. Implemented sophisticated data management features, including multi-parameter search filters, combined sorting algorithms, and controlled forms for dynamic data entry, all wrapped in a dark-themed gaming aesthetic."
-    },
     "starwars": {
       "title": "The Force Wiki - Data Explorer",
       "shortDescription": "Dynamic encyclopedia integrating REST APIs with a modular React architecture.",

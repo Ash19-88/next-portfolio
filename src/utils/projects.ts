@@ -67,18 +67,7 @@ export const projects: Project[] = [
         techStack: ["React", "JavaScript", "Tailwind CSS"]
     },
     {
-        id: 6, 
-        src: "/videogamePortfolio.gif",
-        github: "https://github.com/Ash19-88/PI-videogames",
-        site: "https://videogames-ashtech.vercel.app/",
-        alt: "Videogames",
-        width: 700,
-        height: 100,
-        translationKey: "videogames",
-        techStack: ["React", "Redux", "JavaScript"]
-    },
-    {
-        id: 7,
+        id: 6,
         src: "/starwars.gif",
         github: "https://github.com/Ash19-88/star-wars",
         site: "https://star-wars-ashtechsolutions.netlify.app/",
